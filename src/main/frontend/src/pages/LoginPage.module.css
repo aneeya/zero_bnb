@@ -1,0 +1,95 @@
+:global .inputForm {
+  display: block;
+  width: 400px;
+  height: 60px;
+  padding-left: 10px;
+  margin-bottom: 9px;
+  border: 1px solid var(--color-gray0);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+:global .inputForm::placeholder {
+  color: var(--color-gray0);
+}
+
+:global .inputForm:last-of-type {
+  margin-bottom: 45px;
+}
+
+.loginPage {
+  margin-top: 120px;
+}
+
+/* 이메일 로그인, 소셜 로그인 layout */
+
+.emailLogin, .socialLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emailLogin > div,
+.socialLogin > div {
+  margin-bottom: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-gray3);
+}
+
+.emailLogin::after {
+  content: '';
+  width: 420px;
+  height: 1px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  background: var(--color-gray0);
+}
+
+/* 소셜로그인  */
+
+.socialLoginBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.naverLogin, .kakaoLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-gray2);
+  font-family: var(--font-family-lato);
+  cursor: pointer;
+}
+
+.naverLogin:hover,
+.naverLogin:focus,
+.kakaoLogin:hover,
+.kakaoLogin:focus {
+  font-weight: 600;
+}
+
+.naverLogin > div,
+.kakaoLogin > div{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background: rgb(12, 199, 84);
+}
+
+.kakaoLogin > div {
+  background: rgb(255, 231, 77)
+}
+
+/* 회원가입링크 */
+.joinLink {
+  margin-top: 30px;
+  color: var(--color-gray2);
+}

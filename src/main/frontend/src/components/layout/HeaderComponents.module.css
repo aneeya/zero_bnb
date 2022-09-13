@@ -1,0 +1,45 @@
+.header {
+  background: var(--main-color2);
+  box-shadow: 1px 1px 3px rgb(40, 59, 80);
+}
+
+.header > div {
+  max-width: 1690px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logo {
+  width: 125px;
+  height: 41px;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--main-color1);
+}
+
+.loginAndJoin {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.loginAndJoin > a,
+.loginAndJoin > span {
+  background: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--main-color2-0);
+  flex-shrink: 0;
+}
+
+.loginAndJoin > a:hover,
+.loginAndJoin > a:focus {
+  font-weight: 700;
+  color: var(--main-color2-4);;
+}
