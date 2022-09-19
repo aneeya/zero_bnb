@@ -6,21 +6,23 @@
   height: 50px;
 }
 
-.hostMode {
+.hostMode > a {
   display: block;
   width: 100px;
   height: 40px;
   margin-right: 25px;
+  padding: 1rem 0;
   background: var(--main-color2);
   border: none;
   border-radius: 25px;
   font-size: 16px;
   font-weight: 700;
+  text-align: center;
   color: var(--main-color2-0);
 }
 
-.hostMode:hover,
-.hostMode:focus {
+.hostMode > a:hover,
+.hostMode > a:focus {
   border: 1px solid var(--main-color2-4);
   box-shadow: 2px 2px var(--main-color2-4);
 }

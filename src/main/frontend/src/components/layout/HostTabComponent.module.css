@@ -1,0 +1,48 @@
+.tab {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 102rem;
+}
+
+.tab::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0.1rem;
+  background: var(--color-gray1);;
+}
+
+.tab > li {
+  width: 80rem;
+  height: 6rem;
+  padding: 1.5rem 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab > li:hover,
+.tab > li:focus {
+  background: rgb(241, 241, 241);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.hostInfoArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.tabButton {
+  width: 80%;
+  height: 100%;
+  background: none;
+  border: none;
+}
+
+
+

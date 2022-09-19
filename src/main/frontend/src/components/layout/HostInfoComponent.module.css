@@ -1,0 +1,31 @@
+.hostImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  background: var(--color-gray1);
+  border-radius: 50%;
+  border: 2px solid var(--color-gray2)
+}
+
+.hostImg[alt] {
+  text-align: center;
+}
+
+.hostInfo {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+

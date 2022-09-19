@@ -1,0 +1,142 @@
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.inputArea > div > span,
+.inputArea > div > label {
+  display: inline-block;
+  width: 15rem;
+  margin-right: 2rem;
+  text-align: left;
+  color: var(--color-gray2);
+}
+
+.inputStyle {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.inputArea > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80rem;
+  margin: 1rem auto;
+}
+
+.typeLabel > label {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+.typeLabel > label > input {
+  position: relative;
+  margin-left: 1rem;
+}
+
+/* .typeLabel > label > input::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -5%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray0);
+} */
+
+.inputStyle {
+  appearance: none;
+  width: 52rem;
+  height: 4rem;
+}
+
+.inputStyle > input,
+.eventList input {
+  width: 52rem;
+  height: 3.3rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 1px solid var(--color-gray0);
+}
+
+.eventList {
+  width: 52rem;
+}
+
+.event {
+  position: relative;
+  width: 0.8rem;
+  margin-top: -3rem;
+  margin-left: -3rem;
+  cursor: pointer;
+}
+
+.firstEvent {
+  position: relative;
+  width: 0.8rem;
+  margin-top: -3rem;
+  margin-left: -3rem;
+  cursor: pointer;
+  transform: rotate(45deg);
+}
+
+.firstEvent:hover,
+.firstEvent:focus {
+  transform: rotate(-45deg) scale(1.2);
+}
+
+.event:hover,
+.event:focus {
+  transform: scale(1.2);
+}
+
+.inputStyle > input:last-child {
+  margin-bottom: 2rem;
+}
+
+.textAreaStyle {
+  width: block;
+  width: 52rem;
+  height: 12rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  resize: none;
+  border: 1px solid var(--color-gray0);
+  border-radius: 0.5rem;
+}
+
+.checkboxDiv > span {
+  display: block;
+  width: 15rem;
+}
+
+.checkboxDiv > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 26rem;
+  margin-right: 3rem;
+}
+
+.checkbox > label {
+  display: block;
+  width: 15em;
+  height: 3rem;
+  margin: 0.8rem 2rem 0.8rem 0;
+  text-overflow: clip;
+  white-space: pre-wrap;
+  letter-spacing: 0.1rem;
+}
+

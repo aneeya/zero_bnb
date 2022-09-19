@@ -13,7 +13,7 @@
 --main-color2-5: #151a35;
 
 --color-white: #fff;
---color-black: rgba(152, 152, 152, 0);
+--color-black: #000;
 
 --color-gray0: #c9c9c9;
 --color-gray1: #aaaaaa;
@@ -34,7 +34,7 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   outline: none;
 }

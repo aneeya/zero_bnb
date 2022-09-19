@@ -1,0 +1,39 @@
+.registerLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 102rem;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+
+.imgInput {
+  display: flex;
+  width: 80rem;
+  align-items: center;
+}
+
+.imgInput > span {
+  display: block;
+  width: 15rem;
+  margin-right: 2rem;
+}
+
+.formLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 102rem;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom:  10rem;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+  }

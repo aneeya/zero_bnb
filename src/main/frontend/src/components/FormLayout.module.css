@@ -3,10 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 550px;
+  width: 540px;
   height: 660px;
   padding-top: 50px;
   padding-bottom: 50px;
+  background: var(--color-white);
   border: 1px solid var(--color-gray0);
   border-radius: 20px;
+  box-shadow: 1px 1px 0 0 var(--color-gray0) ;
 }

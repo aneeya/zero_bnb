@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import styled from './HeaderLoginStatus.module.css'
 
+
+//컴포넌트 분리하기
 export default function HeaderLoginStatus() {
   const [ toggle, setToggle ] = useState(false)
   
@@ -10,13 +13,16 @@ export default function HeaderLoginStatus() {
 
   return(
     <div className={styled.headerMenu}>
-      <button type='button' className={styled.hostMode}>호스트 전환</button>
+      <div className={styled.hostMode}>
+        <Link to='/host'>호스트 전환</Link>
+      </div>
       <div>
         <button
           className={styled.userImg}
           onClick={() => setToggle(!toggle)}
           id='$user'
-        >사진
+        >
+          사진
         </button>
         {toggle
           ? <NavList changeToggle={changeToggle}/> 

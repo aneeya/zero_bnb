@@ -1,0 +1,34 @@
+/* .joinTitle {
+  margin-bottom: 4rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-gray3);
+} */
+
+.inputArea {
+  margin-bottom: 11rem;
+}
+
+.date {
+  position: relative;
+}
+
+.date > span {
+  display: block;
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  width: 6rem;
+  height: 2rem;
+  background: var(--color-white);
+  font-size: 1.4rem;
+  font-family: var(--font-family-lato);
+  color: var(--color-gray0);
+}
+
+.emailConfirm {
+  display: flex;
+  justify-content: space-between;
+  width: 34rem;
+}
+

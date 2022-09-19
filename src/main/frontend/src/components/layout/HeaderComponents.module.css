@@ -14,24 +14,20 @@
   
 }
 
-.logo {
-  width: 125px;
-  height: 41px;
-  font-size: 28px;
-  font-weight: 800;
-  color: var(--main-color1);
-}
-
 .loginAndJoin {
   display: flex;
   justify-content: space-between;
-  width: 150px;
+  width: 18rem;
 }
 
-.loginAndJoin > a,
-.loginAndJoin > span {
+.loginAndJoin > a {
+  text-align: center;
+  width: 8.5rem;
+  height: 4rem;
+  padding: 1rem 0;
   background: none;
   border: none;
+  border-radius: 25px;
   font-size: 16px;
   font-weight: 500;
   color: var(--main-color2-0);
@@ -40,6 +36,6 @@
 
 .loginAndJoin > a:hover,
 .loginAndJoin > a:focus {
-  font-weight: 700;
-  color: var(--main-color2-4);;
+  border: 1px solid var(--main-color2-4);
+  box-shadow: 2px 2px var(--main-color2-4);
 }
